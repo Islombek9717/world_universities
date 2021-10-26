@@ -6,7 +6,7 @@ const searchBtn = document.querySelector(".js-form")
 const searchInput = document.querySelector(".js-form-search_input")
 const tempMovie = document.querySelector(".movie")
 
-let linkOmdb = (country) => `http://universities.hipolabs.com/search?country=${country}`;
+let linkOmdb = (country) => `https://universities.hipolabs.com/search?country=${country}`;
 
 templaterender = (item => {
     // console.log(item);
